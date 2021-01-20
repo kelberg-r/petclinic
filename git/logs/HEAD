@@ -1,0 +1,28 @@
+0000000000000000000000000000000000000000 adab01ef624418db4a9677c5c641a039d39b7a18 Ievgen Andrushko <ievgen_andrushko@epam.com> 1589276724 +0300	clone: from git@github.com:aws-cd/app1.git
+adab01ef624418db4a9677c5c641a039d39b7a18 99dfcb514ae888017920bd47d1fd4f8d52c27298 Ievgen Andrushko <ievgen_andrushko@epam.com> 1589276836 +0300	commit: Adding app specific build/start configuration
+99dfcb514ae888017920bd47d1fd4f8d52c27298 c3fad3f6c6b8848e9bf2b2fe466dfc952bc33f86 Ievgen Andrushko <ievgen_andrushko@epam.com> 1589359762 +0300	commit: skipping test stage as for now
+c3fad3f6c6b8848e9bf2b2fe466dfc952bc33f86 af8d59cc5c2daeedf77a47c942fac831f50eaaa0 Ievgen Andrushko <ievgen_andrushko@epam.com> 1589360867 +0300	commit: Adding artifacts uploading to s3 after test stage
+af8d59cc5c2daeedf77a47c942fac831f50eaaa0 0377fa17e6641715d4c7230aed75bfe7fb6cb970 Ievgen Andrushko <ievgen_andrushko@epam.com> 1589383373 +0300	commit: sonar implementation for test stage
+0377fa17e6641715d4c7230aed75bfe7fb6cb970 e3620be9d9a7d92d51f03a24ceec13b55d8fce26 Ievgen Andrushko <ievgen_andrushko@epam.com> 1589384126 +0300	commit: fix sonar test run
+e3620be9d9a7d92d51f03a24ceec13b55d8fce26 6fd7948648bf23ec9e7b81f66f4c86e9b1a96db8 Ievgen Andrushko <ievgen_andrushko@epam.com> 1589386544 +0300	commit: runtime changes for sonar stage
+6fd7948648bf23ec9e7b81f66f4c86e9b1a96db8 47588f157c2f2736923655a66e25e331d09687e4 Ievgen Andrushko <ievgen_andrushko@epam.com> 1589387029 +0300	commit: java runtime image
+47588f157c2f2736923655a66e25e331d09687e4 58c6b980355c43d594992ebffd8fb2df1e3c769e Ievgen Andrushko <ievgen_andrushko@epam.com> 1589387559 +0300	commit: different maven for invocation
+58c6b980355c43d594992ebffd8fb2df1e3c769e 85ef3741dc3d0d2f60c6d82cc75fc24b96214f39 Ievgen Andrushko <ievgen_andrushko@epam.com> 1589388046 +0300	commit: playing with sonar test run
+85ef3741dc3d0d2f60c6d82cc75fc24b96214f39 dd76504afe412a5c0392d126a9bb9008277a97e5 Ievgen Andrushko <ievgen_andrushko@epam.com> 1589440948 +0300	commit: troubleshooting sonar run on codebuild runtime
+dd76504afe412a5c0392d126a9bb9008277a97e5 0750bd9f9923733f9f1533c3d40116fb0a1537d2 Ievgen Andrushko <ievgen_andrushko@epam.com> 1589441097 +0300	commit: apt instead of yum
+0750bd9f9923733f9f1533c3d40116fb0a1537d2 f40ce138bae1fdd4a13df94c383cc7dcf670081d Ievgen Andrushko <ievgen_andrushko@epam.com> 1589441802 +0300	commit: removing back-up test yml
+f40ce138bae1fdd4a13df94c383cc7dcf670081d 09081ac3504d6d67aef7c7b77ce9819abafcc33e Ievgen Andrushko <ievgen_andrushko@epam.com> 1589444232 +0300	commit: sonar troubleshooting
+09081ac3504d6d67aef7c7b77ce9819abafcc33e c2597e361d8f4495d4c0592c25a2aa963d7262e1 Ievgen Andrushko <ievgen_andrushko@epam.com> 1589446141 +0300	commit: pom checkstype http changes
+c2597e361d8f4495d4c0592c25a2aa963d7262e1 e3a7e84dd335e81f5e582c787381ca00adbfb49b Ievgen Andrushko <ievgen_andrushko@epam.com> 1589447422 +0300	commit: https to avoid violations in pom
+e3a7e84dd335e81f5e582c787381ca00adbfb49b 5b6d3b19ea1cb8d2d65def585e04951abb435f8f Ievgen Andrushko <ievgen_andrushko@epam.com> 1589447967 +0300	commit: https to avoid violations in build_test
+5b6d3b19ea1cb8d2d65def585e04951abb435f8f 94c6caf7af8d628385c21e44d26c08a17ba5ee4a Ievgen Andrushko <ievgen_andrushko@epam.com> 1589449917 +0300	commit: java runtime and mvn test instead of package
+94c6caf7af8d628385c21e44d26c08a17ba5ee4a 8c0a2a325f428847a0260def271bc11fde1e6718 Ievgen Andrushko <ievgen_andrushko@epam.com> 1589451815 +0300	commit: removing git tree because of sonar bug
+8c0a2a325f428847a0260def271bc11fde1e6718 eccee5b18dec564eb4feec74b38d5a0dc6c652af Ievgen Andrushko <ievgen_andrushko@epam.com> 1589453058 +0300	commit: troubleshooting sonar
+eccee5b18dec564eb4feec74b38d5a0dc6c652af 474b5b056bfc03f2ab073c7d91ddba1db1a0f37e Ievgen Andrushko <ievgen_andrushko@epam.com> 1589457069 +0300	commit: troubleshooting sonar
+474b5b056bfc03f2ab073c7d91ddba1db1a0f37e b62d60360f4e00486dd7abec9b77956f7a80ccbc Ievgen Andrushko <ievgen_andrushko@epam.com> 1589460220 +0300	commit: troubleshooting sonar
+b62d60360f4e00486dd7abec9b77956f7a80ccbc 9ef209d0f5cdeff2e0ced56bc43f4e6b83e83985 Ievgen Andrushko <ievgen_andrushko@epam.com> 1589460519 +0300	commit: troubleshooting sonar
+9ef209d0f5cdeff2e0ced56bc43f4e6b83e83985 475eacdbac6900edea26eb23e83979308c542948 Ievgen Andrushko <ievgen_andrushko@epam.com> 1589460754 +0300	commit: troubleshooting sonar
+475eacdbac6900edea26eb23e83979308c542948 b4750525eda1e65417ff919d9738586a2f26e5e0 Ievgen Andrushko <ievgen_andrushko@epam.com> 1589461268 +0300	commit: troubleshooting sonar
+b4750525eda1e65417ff919d9738586a2f26e5e0 026dae91943065449bb1b5b52c88465cd22dc094 Ievgen Andrushko <ievgen_andrushko@epam.com> 1589461873 +0300	commit: troubleshooting sonar
+026dae91943065449bb1b5b52c88465cd22dc094 bffa756d477d88a5789144684474244c04570dd1 Ievgen Andrushko <ievgen_andrushko@epam.com> 1589462915 +0300	commit: troubleshooting sonar
+bffa756d477d88a5789144684474244c04570dd1 937ad0d025bb4c8adc3aa8bef262268a4f16a49c Ievgen Andrushko <ievgen_andrushko@epam.com> 1589467401 +0300	commit: repo initialization because of sonar source bug

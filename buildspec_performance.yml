@@ -1,0 +1,8 @@
+version: 0.2
+env:
+  parameter-store:
+    LOGIN: /blazemeter/token
+
+  build:
+    commands:
+        - curl -X POST https://a.blazemeter.com:443/api/v4/tests/8068305/start -H "Content-Type: application/json" --user $LOGIN
